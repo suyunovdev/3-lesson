@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Roboto+Flex:opsz@8..144&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Roboto+Flex:opsz@8..144&family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px;
+}
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1240px;
+}
+hr{
+    color: #E8ECEF
+    ;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+.rasm img{
+    width: 500px;
+    height: 98vh;
+}
+.ong{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 98vh;
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 456px;
+height: 314px;
+gap: 24px;
+opacity: 0px;
+
+    color: #6C7275
+;
+font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+
+}
+.top h1{
+    display: inline;
+font-family: Poppins;
+font-size: 40px;
+font-weight: bold;
+line-height: 44px;
+letter-spacing: -0.4000000059604645px;
+text-align: left;
+color: black;
+
+
+}
+.top p{font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+
+}
+.top span{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+
+}
+.bottom p span{
+    display: inline;
+font-family: Inter;
+font-size: 1.6em;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+color: black;
+
+
+}
+::placeholder{
+    color: #6C7275
+;
+}
+.inputs{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inputs input{
+    width: 100%;
+    border: none;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+}
+.bottom p{
+    display: flex;
+    width: 100%;
+}
