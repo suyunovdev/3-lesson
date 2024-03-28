@@ -124,9 +124,7 @@ color: black;
 
 }
 ::placeholder{
-    color: #6C7275
-
-;
+    color: #6C7275;
 }
 .inputs{
     display:flex;
@@ -159,6 +157,21 @@ height: 40px;
     font-weight: bold;
     color: black;
 }
+.bottom input{
+    width: 20px;
+    cursor: pointer;
+}
+.eyes img{
+    transition: 1s;
+    cursor:pointer;
+    border-radius: 50%;
+}
+.eyes img:hover{
+    box-shadow:0px 0px 20px black;
+
+    transform: rotate(180deg);
+}
+/* MEDIA */
 @media screen and (max-width:1024px){
 .main{
         display: flex;
@@ -166,6 +179,75 @@ height: 40px;
         align-items: center;
         justify-content: space-around;
     } 
+    .left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .rasm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .rasm img{
+        width: 85%;
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        /* height: 314px; */
+        gap: 24px;
+        opacity: 0px;
+        color: #6C7275;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        font-variation-settings: "slnt" 0;
+    }
+    .top h1 {
+        display: inline;
+        font-family: Poppins;
+        font-size: 6em;
+        font-weight: bold;
+        line-height: 44px;
+        letter-spacing: -0.4000000059604645px;
+        text-align: left;
+        color: black;
+    }
+    .top p {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2.6em;
+        font-variation-settings: "slnt" 0;
+    }
+    ::placeholder{
+        padding-left: 10px;
+        color: #6C7275;
+        font-size: 1.6em;
+    }
+    .bottom p{
+        font-size: 2.6em;
+    }
+    
+.bottom span {
+    padding: 10px;
+    display: inline;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: black;
+}
+.bottom input{
+    width: 35px;
+}
+
+
 }
 @media screen and (max-width:768px) {
 .main{
